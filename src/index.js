@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
+import AppContext from './AppContext';
+import "./bootstrap.min.css";
+import "./index.css";
 import reportWebVitals from './reportWebVitals';
-
+document.title = "MY PORTFOLIO";
+// const store = createStore(rootReducer  +  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <AppContext><App /></AppContext>,
   document.getElementById('root')
 );
 

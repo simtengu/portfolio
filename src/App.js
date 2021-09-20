@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React,{useState,useContext,useEffect, useRef} from 'react';
+import {BrowserRouter as Router, Switch,Route} from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import ProjectDetails from "./pages/ProjectDetails";
+import ScrollToTop from './components/ScrollToTop';
+// import ErrorPage from "./pages/ProjectDetails";
+const App = () => {
+  return(
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <ScrollToTop /> 
+      <Navbar />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/projects/:project_id"><ProjectDetails /></Route>
+        {/* <Route exact path="*" Component={<ErrorPage />} /> */}
+      </Switch>
+      <Footer />
+    </Router>
+
   );
+  
+
 }
 
-export default App;
+
+export  default App;

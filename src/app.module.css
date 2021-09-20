@@ -1,0 +1,13 @@
+.btn {
+    padding:  5px;
+    border-radius: 13px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.719);
+    margin-right: 3px;
+    font-size: 19px;
+    background-color: blueviolet;
+}
+
+.display4 {
+    font-size: 44px;
+    font-weight: bold;
+}
