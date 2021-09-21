@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React from "react";
 import chelsea from "../assets/chelsea1.jpg";
 import rabi from "../assets/aboutPic.png";
 import chrisrock from "../assets/chrisrock.jpg";

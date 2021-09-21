@@ -27,6 +27,7 @@ const  HeroSection= () => {
                   <a
                     href="https://web.facebook.com/albert.oscar.963"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     {" "}
                     <FaFacebook
@@ -37,6 +38,7 @@ const  HeroSection= () => {
                   <a
                     href="https://www.instagram.com/albertsimtengu/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     {" "}
                     <FaInstagram
@@ -44,7 +46,9 @@ const  HeroSection= () => {
                       className="mx-2"
                     />
                   </a>
-                  <button style={{ backgroundColor:"transparent",border:"none" }}>
+                  <button
+                    style={{ backgroundColor: "transparent", border: "none" }}
+                  >
                     {" "}
                     <FaTwitter
                       style={{ fontSize: "30px", color: "#2fafe6" }}
@@ -54,6 +58,7 @@ const  HeroSection= () => {
                   <a
                     href="https://www.linkedin.com/in/albert-simtengu-5a93a01b8/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     {" "}
                     <FaLinkedin

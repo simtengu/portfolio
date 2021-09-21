@@ -1,4 +1,4 @@
-import React,{useState,useContext,useEffect, useRef} from 'react';
+import React from 'react';
 import {BrowserRouter as Router, Switch,Route} from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -16,6 +16,7 @@ const App = () => {
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
+        <Route exact path="/portfolio" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/projects/:project_id"><ProjectDetails /></Route>

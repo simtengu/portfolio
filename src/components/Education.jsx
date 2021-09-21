@@ -42,6 +42,7 @@ const Education = () => {
               {gradu_images.map((img, index) => {
                 return (
                   <img
+                   alt="education_img"
                     className={
                       index === imgIndex
                         ? "img-style opacity-one"

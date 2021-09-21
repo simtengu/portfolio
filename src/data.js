@@ -42,8 +42,9 @@ export const projects = [
     purpose:
       "Self learning and gaining some experience and eventually to deploy the application if possible",
     tools: "laravel,jquery&ajax,bootstrap 4,html and css",
-    status: 60,
+    status: 100,
     images: [cb, cb1, cb2, cb3, cb4, cb5],
+    project_link: "https://chuobusiness.com/",
   },
   {
     id: 2,
@@ -61,8 +62,9 @@ export const projects = [
     purpose:
       "Self learning and application of my laravel skills for the very fist time in a real world application and gaining some experience.",
     tools: "laravel,jquery&ajax,bootstrap 4,html and css",
-    status: 80,
-    images: [hh2,hh0, hh1, hh3, hh4, hh5],
+    status: 100,
+    images: [hh2, hh0, hh1, hh3, hh4, hh5],
+    project_link: "https://houserenting.chuobusiness.com",
   },
   {
     id: 3,
@@ -74,6 +76,7 @@ export const projects = [
     tools: "reactjs,sass,bootstrap 4,html and css",
     status: 100,
     images: [pf0, pf3, pf2, pf4],
+    project_link: "https://simtengu.github.io/",
   },
   {
     id: 4,
@@ -91,6 +94,7 @@ export const projects = [
     tools: "laravel,jquery&ajax,bootstrap 4,html and css",
     status: 60,
     images: [onp3, onp2, onp1, onp4],
+    project_link: "#",
   },
   {
     id: 5,
@@ -110,6 +114,7 @@ export const projects = [
     tools: "laravel,reactjs,axios,bootstrap 4,html and css",
     status: 10,
     images: [onp1, onp2, onp3, onp4],
+    project_link: "#",
   },
   {
     id: 6,
@@ -121,5 +126,6 @@ export const projects = [
     tools: "Vuejs,sass,bootstrap 4,html and css",
     status: 0,
     images: [onp2, onp3, onp1, onp4],
+    project_link: "#",
   },
 ];

@@ -54,6 +54,7 @@ const Contact = () => {
                     href="https://web.facebook.com/albert.oscar.963"
                     className="btn"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <FaFacebookSquare
                       style={{ fontSize: "30px", color: "#0062c4" }}
@@ -69,6 +70,7 @@ const Contact = () => {
                     href="https://www.instagram.com/albertsimtengu/"
                     className="btn"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <FaInstagramSquare
                       style={{ fontSize: "30px", color: "pink" }}
@@ -95,6 +97,7 @@ const Contact = () => {
                     href="https://www.linkedin.com/in/albert-simtengu-5a93a01b8/"
                     className="btn"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <FaLinkedin
                       style={{ fontSize: "30px" }}

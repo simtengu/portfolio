@@ -37,6 +37,7 @@ const Footer = () => {
                   <a
                     href="https://web.facebook.com/albert.oscar.963"
                     target="_blank"
+                    rel="noreferrer"
                     className="btn"
                   >
                     <FaFacebook
@@ -48,6 +49,7 @@ const Footer = () => {
                   <a
                     href="https://www.instagram.com/albertsimtengu/"
                     target="_blank"
+                    rel="noreferrer"
                     className="btn"
                   >
                     <FaInstagram
@@ -64,6 +66,7 @@ const Footer = () => {
                   <a
                     href="https://www.linkedin.com/in/albert-simtengu-5a93a01b8/"
                     target="_blank"
+                    rel="noreferrer"
                     className="btn"
                   >
                     <FaLinkedin

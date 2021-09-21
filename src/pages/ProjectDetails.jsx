@@ -1,6 +1,6 @@
 import React from "react";
-import { useParams,Link } from "react-router-dom";
-import { projects, gradu_images } from "../data";
+import { useParams } from "react-router-dom";
+import { projects } from "../data";
 import Flickity from "react-flickity-component";
 import "flickity/dist/flickity.css";
 
@@ -19,8 +19,16 @@ const ProjectDetails = () => {
   const project = projects.find(
     (project) => parseInt(project_id) === project.id
   );
-  let { title, images, purpose, features, description, tools, status } =
-    project;
+  let {
+    project_link,
+    title,
+    images,
+    purpose,
+    features,
+    description,
+    tools,
+    status,
+  } = project;
     let visitable = true;
     if( status === parseInt(100)){
        visitable = false;
@@ -40,8 +48,8 @@ const ProjectDetails = () => {
                     {title}
                   </h3>
                 </div>
-                 {/* project images carousel........................................ */}
-                  <Carousel images={images} />
+                {/* project images carousel........................................ */}
+                <Carousel images={images} />
 
                 <div className="row">
                   <div className="col-md-6 my-2">
@@ -111,14 +119,15 @@ const ProjectDetails = () => {
                         Project Status:{" "}
                         <span className="text-light">{status}%</span>
                       </h4>
-                      <Link to="www.chuobusiness.com">
-                        <button disabled={visitable}
+                      <a href={project_link} target="_blank" rel="noreferrer">
+                        <button
+                          disabled={visitable}
                           style={{ fontFamily: "arial", fontSize: "22px" }}
                           className="mt-2 btn btn-success text-light"
                         >
                           visit project
                         </button>
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -142,11 +151,8 @@ function Carousel({images}) {
       
       {images.map((img, index) => {
         return (
-          <div
-            key={index}
-            className=" col-sm-6 col-lg-8 my-3"
-          >
-            <img className="img-fluid" src={img} />
+          <div key={index} className=" col-sm-6 col-lg-8 my-3">
+            <img className="img-fluid" alt="project_img" src={img} />
           </div>
         );
       })}
