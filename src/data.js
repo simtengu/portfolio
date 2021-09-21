@@ -76,7 +76,7 @@ export const projects = [
     tools: "reactjs,sass,bootstrap 4,html and css",
     status: 100,
     images: [pf0, pf3, pf2, pf4],
-    project_link: "https://simtengu.github.io/",
+    project_link: "https://simtengu.github.io/portfolio/",
   },
   {
     id: 4,
