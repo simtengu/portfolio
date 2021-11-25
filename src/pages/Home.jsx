@@ -20,8 +20,9 @@ const Home = () => {
         <Education />
         <Skills />
         <Experience />
-        <Projects />
       </div>
+      <Projects />
+    
     </>
   );
 };

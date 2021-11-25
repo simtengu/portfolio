@@ -4,6 +4,8 @@ import App from './App';
 import AppContext from './AppContext';
 import "./bootstrap.min.css";
 import "./index.css";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
 import reportWebVitals from './reportWebVitals';
 document.title = "MY PORTFOLIO";
 // const store = createStore(rootReducer  +  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());

@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaQuoteLeft, FaQuoteRight, FaTwitt
 const Footer = () => {
     return (
       <>
-        <footer id="footer" className="bg-footer py-5 text-center">
+        <footer id="footer" className=" pb-1 pt-5 text-center">
           {/* #2d2f30 */}
           <div className="container">
             <div className="row justify-content-center">
@@ -21,7 +21,7 @@ const Footer = () => {
                 <p
                   style={{
                     fontSize: "20px",
-                    fontFamily: "arial",
+                    fontFamily: "'Lobster', cursive",
                     color: "#2fafe6",
                   }}
                 >
@@ -76,10 +76,10 @@ const Footer = () => {
                   </a>
                 </div>
 
-                <div className="mt-5">
-                  <p style={{ color: "#828282" }}>
+                <div className="mt-3">
+                  <p style={{ color: "#ccc",fontSize: 12 }}>
                     Designed by{" "}
-                    <span style={{ color: "#828282", fontWeight: "bolder" }}>
+                    <span style={{ color: "#ccc", fontWeight: "bolder" }}>
                       Albert Simtengu
                     </span>
                   </p>

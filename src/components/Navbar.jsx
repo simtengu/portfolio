@@ -102,7 +102,10 @@ const Navbar = () => {
           <div className="col-lg-4 col-xl-5">
             <div className="d-flex w-100  justify-content-between">
               <div>
-                <Link className="navbar-brand ml-3 " to="/">
+                <Link
+                  className="navbar-brand ml-3 "
+                  to="/"
+                >
                   <span className="font-weight-bold text-light">AO</span>
                   <span className="text-primary">Simtengu</span>
                 </Link>

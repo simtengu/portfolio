@@ -9,17 +9,125 @@ body {
 * {
     box-sizing: border-box;
 }
-/* .flickity-slider {
-  transform: translateX(0%) !important;
 
-  sdb-p.hosting.stackcp.net
-	
-houserenting-313938fedb
-} */
+
+    /* font-family: 'Dancing Script', cursive;
+
+    font-family: 'Libre Baskerville', serif;
+
+    font-family: 'Lobster', cursive;
+
+    font-family: 'Satisfy', cursive;
+
+    font-family: 'Sawarabi Mincho', sans-serif; */
+  .text-cursive {
+    font-family: 'Dancing Script', cursive;
+  }
+  .text-serif {
+     font-family: 'Libre Baskerville', serif;
+  }
+
+  .text-lobster {
+    font-family: 'Lobster', cursive;
+  }
+
+  .text-satisfy {
+    font-family: 'Satisfy', cursive;
+  }
+
+  .text-mincho {
+     font-family: 'Sawarabi Mincho', sans-serif;
+  }
+
+.font-12 {
+  font-size: 12px;
+}
+
+
+.font-14 {
+  font-size: 14px;
+}
+
+
+.font-17 {
+  font-size: 17px;
+}
+
+
+
+.font-18 {
+  font-size: 18px;
+}
+
+
+.font-20 {
+  font-size: 20px;
+}
+
+
+
+.font-22  {
+  font-size: 22px;
+}
+
+
+.font-24 {
+  font-size: 24px;
+}
+
+.font-27 {
+  font-size: 27px;
+}
+
+.font-30 {
+  font-size: 30px;
+}
+
+
+
+.experience-container {
+   margin-top: 130px;
+   margin-bottom: 100px;
+}
+
+
+#level {
+ font-family: 'Satisfy', cursive; 
+ margin-top: 12px;
+}
+
+      .interest-card {
+        border-radius: 20px;
+        background: linear-gradient(pink,cyan);
+        font-family: 'Libre Baskerville', serif;
+        font-size: 14px;
+      }
+      .bg-cyan-pink {
+      background: linear-gradient(to top right,rgb(192, 255, 250),cyan);
+
+    }
 
 .contact-btn:hover {
  background-color: #0098f2  !important;
 }
+#carrier-info-div {
+     /* background-image: url('./assets/backgrounds/bg1.png');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center; */
+
+     background: linear-gradient(to bottom right, rgba(154, 98, 194,0.4),#94d9ee,rgba(154, 98, 194,0.4));
+     
+ }
+
+ #footer {
+     background-image: url('./assets/backgrounds/bg2.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     
+ }
+
  #hero {
      background-image: url('./assets/pc1.jpg');
      background-size: cover;
@@ -94,7 +202,6 @@ houserenting-313938fedb
    justify-content: center; */
  }
   .hero-left-flex-div p {
-    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 19px;
     color:whitesmoke;
     /* text-shadow: 1px 2px grey; */
@@ -120,7 +227,6 @@ houserenting-313938fedb
 .education {
     font-size: 50px;
     letter-spacing: .7rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     color: #0066a1;
 
@@ -155,9 +261,12 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   cursor: pointer;
   /* min-height: 300px; */
   width: 100%;
-  transition: background 2000ms;
+  transition: background 0.5s,transform 0.5s;
   
   /* background-color: rgba(0, 102, 161, 1); */
+}
+.project:hover {
+  transform: translateY(-11px);
 }
 
 .project .footer p {
@@ -301,6 +410,12 @@ transition: color 500ms ease-in-out,background-color 500ms ease-in-out;
       .about-hero h1{
         font-size: 40px;
       }
+
+    .experience-container {
+      margin-top: 60px;
+      margin-bottom: 50px;
+    }
+
     } 
 
     /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -339,7 +454,7 @@ transition: color 500ms ease-in-out,background-color 500ms ease-in-out;
     /* Large devices (laptops/desktops, 992px and up) */
     @media only screen and (min-width: 992px) {
       .interest-card {
-        min-height: 395px;
+        min-height: 454px;
       }
    
 

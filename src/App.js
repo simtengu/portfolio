@@ -9,6 +9,7 @@ import ProjectDetails from "./pages/ProjectDetails";
 import ScrollToTop from './components/ScrollToTop';
 // import ErrorPage from "./pages/ProjectDetails";
 const App = () => {
+
   return(
 
     <Router>

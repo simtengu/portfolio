@@ -1,4 +1,5 @@
 import React,{useEffect,useState} from 'react';
+import AOS from "aos";
 import {gradu_images} from "../data";
 import { FaCheckDouble } from "react-icons/fa";
 const Education = () => {
@@ -13,15 +14,16 @@ const Education = () => {
      return ()=>{ clearInterval(imgInterval)};
    },[imgIndex]);
    
-   
+
+
     return (
       <>
         <div
           id="education"
           className=" my-5 py-5 d-flex justify-content-center"
         >
-          <div className="text-center">
-            <h2 className="education">Education</h2>
+          <div data-aos="slide-up" className="text-center">
+            <h2 className="education text-mincho">Education</h2>
             <div
               style={{
                 width: "270px",
@@ -33,7 +35,10 @@ const Education = () => {
           </div>
         </div>
 
-        <div className="row pt-2 pb-5 justify-content-center">
+        <div
+          data-aos="slide-up"
+          className="row pt-5 pb-5 mt-5 justify-content-center"
+        >
           <div className="col-md-6 text-center">
             <div
               className="w-100 "
@@ -42,7 +47,7 @@ const Education = () => {
               {gradu_images.map((img, index) => {
                 return (
                   <img
-                   alt="education_img"
+                    alt="education_img"
                     className={
                       index === imgIndex
                         ? "img-style opacity-one"

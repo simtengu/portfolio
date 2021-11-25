@@ -1,6 +1,8 @@
-import React from "react";
+import React,{useEffect} from "react";
+import AOS from "aos";
 import chelsea from "../assets/chelsea1.jpg";
 import rabi from "../assets/aboutPic.png";
+import pc_bg from "../assets/backgrounds/bg3.png";
 import chrisrock from "../assets/chrisrock.jpg";
 import jwrld from "../assets/jwrld.jpg";
 import tmaster from "../assets/tmaster.png";
@@ -18,43 +20,70 @@ import {
   FaWordpress,
 } from "react-icons/fa";
 const About = () => {
+     useEffect(() => {
+       AOS.init({
+         duration: 1000,
+       });
+       return () => {};
+     }, []);
+
   return (
     <>
       <div className="about-hero">
         <div className="w-100 about-div d-flex flex-column align-items-center justify-content-center">
-          <h1 className="text-center text-capitalize">more about me</h1>
+          <h1
+            className="text-center text-capitalize"
+            style={{ fontFamily: "Open Sans, Arial, Helvetica, sans-serif" }}
+          >
+            more about me
+          </h1>
         </div>
       </div>
       <div className="container">
-        <div className=" my-5 pt-5 pb-3">
-          <div className="pl-1">
-            <h1
-              style={{ textDecoration: "underline" }}
-              className="text-project font-arial text-capitalize font-weight-bold"
-            >
-              about me
-            </h1>
+        <div className="row align-items-center py-4">
+          <div className="col-12">
+            <div className=" my-5 pt-5 pb-3">
+              <div className="pl-1">
+                <h1
+                  style={{ textDecoration: "underline" }}
+                  className="text-project font-arial text-capitalize font-weight-bold"
+                >
+                  about me
+                </h1>
+              </div>
+            </div>
           </div>
-        </div>
-        <div className="row">
-          <div className="col-md-4 col-lg-4">
+
+          <div id="carrier-info-divv" className="col-md-4 col-lg-4">
             <img
               src={rabi}
               className="img-fluid rounded-circle"
               alt="aos img"
             />
           </div>
-          <div className="col-md-8 col-lg-8 pt-4 pt-lg-0 pl-lg-5 content">
-            <h3 className="text-project font-arial font-weight-bold">
+          <div
+            data-aos="slide-up"
+            className="col-md-8 col-lg-8 pt-4 pt-lg-0 pl-lg-5 content"
+          >
+            <h3
+              style={{ fontFamily: "Open Sans, Arial, Helvetica, sans-serif" }}
+              className="text-project font-weight-bold"
+            >
               Albert Oscar Simtengu
             </h3>
-            <p className="font-italic fontSize">
+            <p
+              style={{ fontFamily: "Open Sans, Arial, Helvetica, sans-serif" }}
+              className="font-italic fontSize"
+            >
               Iam a mid-level fullstack developer with one year of experience.
               My favorite development stack is laravel for backend and
               vuejs/reactjs for frontend as well as bootstrap and sass for
               styling frontend components.
             </p>
-            <div className="row">
+            <div
+              style={{ fontFamily: "Open Sans, Arial, Helvetica, sans-serif" }}
+              className="row font-italic"
+            >
               <div className="col-lg-6">
                 <p className=" pb-0 mb-0 ">
                   <FaCaretRight className="text-project" />
@@ -92,11 +121,28 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="py-3">
-              <h3 className="text-project font-weight-bold font-arial">
-                Fullstack web developer
-              </h3>
-              <p className="font-italic fontSize">
+          </div>
+        </div>
+        <div
+          data-aos="slide-up"
+          className="row px-md-5 mt-3 mt-md-5 py-4 align-items-center"
+        >
+          <div className="col-md-6 text-center">
+            <h3 className="text-project font-weight-bold font-arial">
+              Fullstack web developer
+            </h3>
+            <div className="p-2">
+              <img src={pc_bg} className="img-fluid" alt="aos img" />
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="py-2 mt-5">
+              <p
+                style={{
+                  fontFamily: "Open Sans, Arial, Helvetica, sans-serif",
+                }}
+                className="font-italic fontSize"
+              >
                 I started coding at college when i was studying for my Computer
                 Science Degree from 2017-2020, during that period i learnt all
                 basic technologies for web development then after i took my
@@ -108,7 +154,8 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="section-title py-5 mt-5">
+
+        <div data-aos="slide-up" className="section-title py-5 mt-5">
           <h2
             style={{ textDecoration: "underline" }}
             className="text-project font-arial  font-weight-bold"
@@ -117,38 +164,38 @@ const About = () => {
           </h2>
         </div>
 
-        <div className="row skills-row">
+        <div data-aos="slide-up" className="row skills-row">
           <div className="col-6 col-sm-4 col-md-3 col-lg-2 text-center my-2">
             <FaHtml5 style={{ fontSize: "40px", color: "orange" }} />
-            <p>advanced level</p>
+            <p id="level">advanced level</p>
           </div>
           <div className="col-6 col-sm-4 col-md-3 col-lg-2 text-center my-2">
             <FaCss3 style={{ fontSize: "40px", color: "#3695cf" }} />
-            <p>Advanced level</p>
+            <p id="level">Advanced level</p>
           </div>
           <div className="col-6 col-sm-4 col-md-3 col-lg-2 text-center my-2">
             <FaJs style={{ fontSize: "40px", color: "#f9f900" }} />
-            <p>Mid level</p>
+            <p id="level">Mid level</p>
           </div>
           <div className="col-6 col-sm-4 col-md-3 col-lg-2 text-center my-2">
             <FaBootstrap style={{ fontSize: "40px", color: "indigo" }} />
-            <p>Advanced level</p>
+            <p id="level">Advanced level</p>
           </div>
           <div className="col-6 col-sm-4 col-md-3 col-lg-2 text-center my-2">
             <FaSass style={{ fontSize: "40px", color: "#ff00ff" }} />
-            <p>Advanced level</p>
+            <p id="level">Advanced level</p>
           </div>
           <div className="col-6 col-sm-4 col-md-3 col-lg-2 text-center my-2">
             <FaLaravel style={{ fontSize: "40px", color: "#ff4a4a" }} />
-            <p>Mid level</p>
+            <p id="level">Mid level</p>
           </div>
           <div className="col-6 col-sm-4 col-md-3 col-lg-2 text-center my-2">
             <FaVuejs style={{ fontSize: "40px", color: "darkgreen" }} />
-            <p>Mid level</p>
+            <p id="level">Mid level</p>
           </div>
           <div className="col-6 col-sm-4 col-md-3 col-lg-2 text-center my-2">
             <FaPhp style={{ fontSize: "40px", color: "#0066a1" }} />
-            <p>Mid level</p>
+            <p id="level">Mid level</p>
           </div>
           <div className="col-6 col-sm-4 col-md-3 col-lg-2 text-center my-2">
             <FaReact
@@ -158,15 +205,15 @@ const About = () => {
                 backgroundColor: "#292f34",
               }}
             />
-            <p>Mid level</p>
+            <p id="level">Mid level</p>
           </div>
           <div className="col-6 col-sm-4 col-md-3 col-lg-2 text-center my-2">
             <h2 style={{ color: "#0066a1", fontWeight: "bolder" }}>jQuery</h2>
-            <p>Advanced level</p>
+            <p id="level">Advanced level</p>
           </div>
           <div className="col-6 col-sm-4 col-md-3 col-lg-2 text-center my-2">
             <FaWordpress style={{ fontSize: "40px", color: "#5eb3ce" }} />
-            <p>Mid level</p>
+            <p id="level">Mid level</p>
           </div>
         </div>
         {/* Interests section .................................................... */}
@@ -180,15 +227,18 @@ const About = () => {
         </div>
 
         <div className="row py-4">
-          <div className="col-xl-3 col-md-6">
-            <div className=" p-2 shadow interest-card">
-              <img
-                src={chelsea}
-                alt="aos"
-                className="card-img-top img-thumbnail"
-              />
+          <div className="col-xl-3 col-md-6 mt-3">
+            <div className=" p-3 border shadow interest-card">
+              <img src={chelsea} alt="aos" className="card-img-top rounded" />
               <div className="mt-2">
-                <h4 className="card-title">Football</h4>
+                <h4
+                  className="card-title"
+                  style={{
+                    fontFamily: "Open Sans, Arial, Helvetica, sans-serif",
+                  }}
+                >
+                  Football
+                </h4>
                 <div className="d-flex">
                   <p>
                     <FaCaretRight className="text-project" />
@@ -214,15 +264,18 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="col-xl-3 col-md-6 mt-2">
-            <div className=" p-2 shadow interest-card">
-              <img
-                src={tmaster}
-                alt="aos"
-                className="card-img-top img-thumbnail"
-              />
+          <div className="col-xl-3 col-md-6 mt-3">
+            <div className=" p-3 border shadow interest-card">
+              <img src={tmaster} alt="aos" className="card-img-top rounded" />
               <div className="mt-2">
-                <h4 className="card-title">Typing</h4>
+                <h4
+                  className="card-title"
+                  style={{
+                    fontFamily: "Open Sans, Arial, Helvetica, sans-serif",
+                  }}
+                >
+                  Typing
+                </h4>
                 <div className="d-flex">
                   <p>
                     <FaCaretRight className="text-project" />
@@ -241,15 +294,18 @@ const About = () => {
             </div>
           </div>
 
-          <div className="col-xl-3 col-md-6 mt-2">
-            <div className=" p-2 shadow interest-card">
-              <img
-                src={chrisrock}
-                alt="aos"
-                className="card-img-top img-thumbnail"
-              />
+          <div className="col-xl-3 col-md-6 mt-3">
+            <div className=" p-3 border shadow interest-card">
+              <img src={chrisrock} alt="aos" className="card-img-top rounded" />
               <div className="mt-2">
-                <h4 className="card-title">Comedy</h4>
+                <h4
+                  className="card-title"
+                  style={{
+                    fontFamily: "Open Sans, Arial, Helvetica, sans-serif",
+                  }}
+                >
+                  Comedy
+                </h4>
                 <div className="d-flex">
                   <p>
                     <FaCaretRight className="text-project" />
@@ -271,15 +327,18 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="col-xl-3 col-md-6 mt-2">
-            <div className=" p-2 shadow interest-card">
-              <img
-                src={jwrld}
-                alt="aos"
-                className="card-img-top img-thumbnail"
-              />
+          <div className="col-xl-3 col-md-6 mt-3">
+            <div className="p-3 border shadow interest-card">
+              <img src={jwrld} alt="aos" className="card-img-top rounded" />
               <div className="mt-2">
-                <h4 className="card-title">Music</h4>
+                <h4
+                  className="card-title"
+                  style={{
+                    fontFamily: "Open Sans, Arial, Helvetica, sans-serif",
+                  }}
+                >
+                  Music
+                </h4>
                 <div className="d-flex">
                   <p>
                     <FaCaretRight className="text-project" />

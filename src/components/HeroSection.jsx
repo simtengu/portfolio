@@ -15,10 +15,10 @@ const  HeroSection= () => {
                     fontFamily: "Poppins, sans-serif",
                   }}
                 >
-                  <span className="text-primary">I'm</span> Albert Oscar
+                  <span className="text-primary text-serif">I'm</span> Albert Oscar
                   Simtengu
                 </h2>
-                <p style={{ color: "#e1e6ea" }}>
+                <p className="text-mincho" style={{ color: "#e1e6ea" }}>
                   I am a mid-level fullstack web developer from Tanzania and a
                   holder of bachelor degree in computer science . My favorite
                   development stack is laravel+react/vue+bootstrap and sass.
@@ -67,16 +67,18 @@ const  HeroSection= () => {
                     />
                   </a>
                 </div>
+     
                 <Link
                   style={{
                     fontSize: "18px",
-                    fontFamily: "Poppins, sans-serif",
+                    fontFamily: "'Libre Baskerville', serif",
                   }}
                   className="text-capitalize contact-me-btn btn btn-primary mt-3"
                   to="/about"
                 >
                   more about me
                 </Link>
+                
               </div>
             </div>
             <div className="col-md-6 hero-right-flex-div pt-5">

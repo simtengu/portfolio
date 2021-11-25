@@ -25,6 +25,13 @@ import onp2 from "./assets/onp2.jpg";
 import onp3 from "./assets/onp3.jpg";
 import onp4 from "./assets/onp4.jpg";
 
+import mby1 from "./assets/mby1.PNG";
+import mby2 from "./assets/mby2.PNG";
+import mby3 from "./assets/mby3.PNG";
+import mby4 from "./assets/mby4.PNG";
+import mby5 from "./assets/mby5.PNG";
+import mby from "./assets/mby.PNG";
+
 export const gradu_images = [gradu3, gradu5, gradu4, gradu, gradu1, gradu2];
 export const projects = [
   {
@@ -80,52 +87,56 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Restaurant system",
+    title: "Mbeyamilk.com",
     description:
-      "This application will be used for online meal ordering from a specific restaurant.",
+      "This application is a web application for managing activities of mbeya milk company especially Cost analysis.",
     features: [
-      "Addition of new meal",
-      "Meal search engine",
-      "Customer registration",
-      "Meal order placement",
+      "Recieving data about company sells",
+      "Receiving data about company consumptions",
+      "Managing company products' stock",
+      "Managing company products production",
     ],
     purpose:
-      "Self learning and gaining some experience specifically in Vuejs framework",
+      "Development of an application for Mbeya milk company as required.",
     tools: "laravel,jquery&ajax,bootstrap 4,html and css",
-    status: 60,
-    images: [onp3, onp2, onp1, onp4],
-    project_link: "#",
-  },
-  {
-    id: 5,
-    title: "Blog",
-    description:
-      "House renting management system is designed to help landloards especially those with many tenants on managing the whole process of renting their houses to their tenants ",
-    features: [
-      "User registration",
-      "Post creation",
-      "Updating a post",
-      "Deleting a post",
-      "Displaying available posts",
-      "Searching posts of a particular topic",
-    ],
-    purpose:
-      "Self learning and gaining some experience specifically in reactjs framework",
-    tools: "laravel,reactjs,axios,bootstrap 4,html and css",
-    status: 10,
-    images: [onp1, onp2, onp3, onp4],
-    project_link: "#",
-  },
-  {
-    id: 6,
-    title: "Tourism site",
-    description:
-      "This will be a website for presenting the beauty of Tanzania Country through displaying basic information about some of main tourist attractions like mountains,national parks and historical sites found in the country.",
-    purpose:
-      "Self learning and gaining some experience specifically in Vuejs framework",
-    tools: "Vuejs,sass,bootstrap 4,html and css",
-    status: 0,
-    images: [onp2, onp3, onp1, onp4],
-    project_link: "#",
+    status: 100,
+    images: [mby, mby1, mby2, mby3, mby4, mby5],
+    project_link: "https://mbeyamilk.chuobusiness.com/",
   },
 ];
+
+
+// ,
+//   {
+//     id: 6,
+//     title: "Tourism site",
+//     description:
+//       "This will be a website for presenting the beauty of Tanzania Country through displaying basic information about some of main tourist attractions like mountains,national parks and historical sites found in the country.",
+//     purpose:
+//       "Self learning and gaining some experience specifically in Vuejs framework",
+//     tools: "Vuejs,sass,bootstrap 4,html and css",
+//     status: 0,
+//     images: [onp2, onp3, onp1, onp4],
+//     project_link: "#",
+//   },
+
+// {
+//     id: 5,
+//     title: "Blog",
+//     description:
+//       "House renting management system is designed to help landloards especially those with many tenants on managing the whole process of renting their houses to their tenants ",
+//     features: [
+//       "User registration",
+//       "Post creation",
+//       "Updating a post",
+//       "Deleting a post",
+//       "Displaying available posts",
+//       "Searching posts of a particular topic",
+//     ],
+//     purpose:
+//       "Self learning and gaining some experience specifically in reactjs framework",
+//     tools: "laravel,reactjs,axios,bootstrap 4,html and css",
+//     status: 10,
+//     images: [onp1, onp2, onp3, onp4],
+//     project_link: "#",
+//   },
