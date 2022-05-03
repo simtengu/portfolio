@@ -5,17 +5,14 @@ import gradu3 from "./assets/graduation4.jpg";
 import gradu4 from "./assets/graduation5.jpg";
 import gradu5 from "./assets/primaryschool1.jpg";
 import cb from "./assets/cb0.png";
+import store from "./assets/storeapp.png";
+import blog from "./assets/blogg.png";
 import hh5 from "./assets/hh5.png";
 import hh4 from "./assets/hh4.png";
 import hh0 from "./assets/hh0.png";
 import hh1 from "./assets/hh1.png";
 import hh2 from "./assets/hh2.png";
 import hh3 from "./assets/hh3.png";
-import cb1 from "./assets/cb1.png";
-import cb2 from "./assets/cb2.png";
-import cb3 from "./assets/cb3.png";
-import cb4 from "./assets/cb4.png";
-import cb5 from "./assets/cb5.png";
 import pf0 from "./assets/pf0.png";
 import pf3 from "./assets/pf3.png";
 import pf2 from "./assets/pf2.png";
@@ -55,7 +52,7 @@ export const projects = [
     description:
       "This is an eCommerce like application with features like cart,search engine,full product management(crud)",
     tools: "nodejs, mongodb, reactjs, material ui",
-    images: [mby],
+    images: [store],
     link: "https://simtengustoreapp.netlify.app/",
   },
   {
@@ -64,7 +61,7 @@ export const projects = [
     description:
       "With this project  a person can register and start publishing various articles ,view and react (like/comment) to other users' posts ",
     tools: "nodejs ,mongodb, reactjs, material ui",
-    images: [mby],
+    images: [blog],
     link: "https://simtengublogapp.netlify.app/",
   },
   {
