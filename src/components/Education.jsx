@@ -1,5 +1,4 @@
 import React,{useEffect,useState} from 'react';
-import AOS from "aos";
 import {gradu_images} from "../data";
 import { FaCheckDouble } from "react-icons/fa";
 const Education = () => {
@@ -26,11 +25,11 @@ const Education = () => {
             <h2 className="education text-mincho">Education</h2>
             <div
               style={{
-                width: "270px",
+                width: "200px",
                 height: "6px",
-                backgroundImage: "linear-gradient(to right,#fff,#000,#fff)",
+              
               }}
-              className="mx-auto"
+              className="mx-auto bg-warning"
             ></div>
           </div>
         </div>

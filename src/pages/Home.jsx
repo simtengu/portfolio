@@ -5,6 +5,8 @@ import Experience from "../components/Experience";
 import Hero from "../components/HeroSection";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
+import About from "./About"
+import Contact from "./Contact"
 const Home = () => {
   const { activateIsHomePage, deActivateIsHomePage } = useGlobalData();
   useEffect(() => {
@@ -22,6 +24,8 @@ const Home = () => {
         <Experience />
       </div>
       <Projects />
+      <About />
+      <Contact />
     
     </>
   );

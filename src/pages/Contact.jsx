@@ -5,6 +5,7 @@ import {
   FaInstagramSquare,
   FaTwitterSquare,
   FaLinkedin,
+  FaGithub,
 } from "react-icons/fa";
 const Contact = () => {
   const [name,setName] = useState("");
@@ -16,7 +17,7 @@ const Contact = () => {
     if(name&&email&&subject&&message){
       let data = {name,email,subject,message};
       axios
-        .post("https://chuobusiness.com/api/portfolio_message", data)
+        .post("http://chuobusiness.mbeyamilk.com/api/portfolio_message", data)
         .then((rs) => {
           alert("Your message has been sent. Thank your!");
           setName("");
@@ -31,13 +32,17 @@ const Contact = () => {
   }
   return (
     <>
-      <div style={{ backgroundColor: "white" }} className="fluid-container">
+      <div
+        id="contact"
+        style={{ backgroundColor: "white" }}
+        className="fluid-container "
+      >
         <div className="about-hero">
           <div className="w-100 about-div d-flex flex-column align-items-center justify-content-center">
             <h1 className="text-center text-capitalize">Contact me</h1>
           </div>
         </div>
-        <div className="container mb-3">
+        <div className="container mb-5">
           <div className=" my-5 pt-5">
             <div className="pl-1">
               <h1
@@ -103,6 +108,20 @@ const Contact = () => {
                       style={{ fontSize: "30px" }}
                       className="mr-2 text-info"
                     />
+                    Albert oscar simtengu
+                  </a>
+                </div>
+              </div>
+
+              <div className="col-md-4 col-lg-3">
+                <div className="card contact-card">
+                  <a
+                    href="https://github.com/simtengu"
+                    className="btn"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FaGithub style={{ fontSize: "30px" }} className="mr-2" />
                     Albert oscar simtengu
                   </a>
                 </div>

@@ -10,13 +10,13 @@ const Navbar = () => {
     <div
       className={isSidebarOpen ? "sidebar sidebar-in" : "sidebar sidebar-out"}
     >
-      <Link to="/"><FaHome className="mr-1" /> Home</Link>
+      <a href="#home"><FaHome className="mr-1" /> Home</a>
       <a href="#education"><FaGraduationCap className="mr-1" /> Education</a>
       <a href="#skills"><FaCode className="mr-1" /> Skills</a>
       <a href="#experience"><FaPersonBooth className="mr-1" /> Experience</a>
       <a href="#projects"><FaLaptop className="mr-1" /> Projects</a>
-      <Link to="/about"><FaUser className="mr-1" /> about</Link>
-      <Link to="/contact"><FaPhone className="mr-1" /> contacts</Link>
+      <a href="#about"><FaUser className="mr-1" /> about</a>
+      <a href="#contact"><FaPhone className="mr-1" /> contacts</a>
     </div>
   );
   let links = (
@@ -42,53 +42,18 @@ const Navbar = () => {
         </a>
       </li>
       <li className="nav-item">
-        <Link to="/about" className="nav-link">
+        <a href="#about" className="nav-link">
           about
-        </Link>
+        </a>
       </li>
       <li className="nav-item">
-        <Link to="/contact" className="nav-link">
+        <a href="#contact" className="nav-link">
           contacts
-        </Link>
+        </a>
       </li>
     </ul>
   );
 
-  if (!isHomePage) {
-    links = (
-      <ul className="navbar-nav">
-        <li className="nav-item">
-          <Link to="/about" className="nav-link">
-            about
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link to="/contact" className="nav-link">
-            contacts
-          </Link>
-        </li>
-      </ul>
-    );
-
-    sidebarLinks = (
-      <div
-        className={isSidebarOpen ? "sidebar sidebar-in" : "sidebar sidebar-out"}
-      >
-        <Link to="/">
-          <FaHome className="mr-2" />
-          Home
-        </Link>
-        <Link to="/about">
-          <FaUser className="mr-2" />
-          about
-        </Link>
-        <Link to="/contact">
-          <FaPhone className="mr-2" />
-          contacts
-        </Link>
-      </div>
-    );
-  }
 
   return (
     <React.Fragment>
@@ -102,13 +67,13 @@ const Navbar = () => {
           <div className="col-lg-4 col-xl-5">
             <div className="d-flex w-100  justify-content-between">
               <div>
-                <Link
+                <a
                   className="navbar-brand ml-3 "
-                  to="/"
+                  href="#home"
                 >
                   <span className="font-weight-bold text-light">AO</span>
                   <span className="text-primary">Simtengu</span>
-                </Link>
+                </a>
               </div>
               <div>
                 <button onClick={openSidebar} className="btn d-lg-none mt-2">

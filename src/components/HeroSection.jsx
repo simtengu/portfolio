@@ -5,6 +5,7 @@ import { FaFacebook,FaInstagram,FaLinkedin,FaTwitter } from "react-icons/fa";
 const  HeroSection= () => {
     return (
       <>
+      <div id="home">
         <div id="hero" className="">
           <div className="hero-dark-div d-flex flex-wrap pb-5">
             <div className="col-md-6 hero-left-flex-div mb-2">
@@ -15,13 +16,13 @@ const  HeroSection= () => {
                     fontFamily: "Poppins, sans-serif",
                   }}
                 >
-                  <span className="text-primary text-serif">I'm</span> Albert Oscar
+                  <span className="text-primary text-serif">Hi</span> I'm Albert Oscar
                   Simtengu
                 </h2>
                 <p className="text-mincho" style={{ color: "#e1e6ea" }}>
-                  I am a mid-level fullstack web developer from Tanzania and a
-                  holder of bachelor degree in computer science . My favorite
-                  development stack is laravel+react/vue+bootstrap and sass.
+                  I'm a mid-level fullstack web developer from Tanzania and a
+                  holder of bachelor degree in computer science . 
+                  My favorite development stack is laravel/nodejs + reactjs(bootstrap,material ui) and sass.
                 </p>
                 <div className="d-flex my-1">
                   <a
@@ -86,6 +87,8 @@ const  HeroSection= () => {
             </div>
           </div>
         </div>
+
+      </div>
       </>
     );
 }
