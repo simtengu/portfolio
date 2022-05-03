@@ -18,11 +18,6 @@ import pf3 from "./assets/pf3.png";
 import pf2 from "./assets/pf2.png";
 import pf4 from "./assets/pf4.png";
 
-import mby1 from "./assets/mby1.PNG";
-import mby2 from "./assets/mby2.PNG";
-import mby3 from "./assets/mby3.PNG";
-import mby4 from "./assets/mby4.PNG";
-import mby5 from "./assets/mby5.PNG";
 import mby from "./assets/mby.PNG";
 
 export const gradu_images = [gradu3, gradu5, gradu4, gradu, gradu1, gradu2];
@@ -42,7 +37,7 @@ export const projects = [
       "Development of an application for Mbeya milk company as required.",
     tools: "laravel, jquery&ajax, bootstrap 4",
     status: 100,
-    images: [mby, mby1, mby2, mby3, mby4, mby5],
+    images: [mby],
     link: "http://milkapp.mbeyamilk.com/",
   },
 
