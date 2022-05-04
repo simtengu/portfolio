@@ -69,16 +69,16 @@ const  HeroSection= () => {
                   </a>
                 </div>
      
-                <Link
+                <a
                   style={{
                     fontSize: "18px",
                     fontFamily: "'Libre Baskerville', serif",
                   }}
                   className="text-capitalize contact-me-btn btn btn-primary mt-3"
-                  to="/about"
+                  href="#about"
                 >
                   more about me
-                </Link>
+                </a>
                 
               </div>
             </div>
