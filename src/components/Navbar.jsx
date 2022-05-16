@@ -1,9 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { FaBars, FaCode, FaGraduationCap, FaHome, FaLaptop, FaPersonBooth, FaPhone, FaUser } from "react-icons/fa";
 import { useGlobalData } from "../AppContext";
 const Navbar = () => {
-  const { isHomePage, isSidebarOpen, openSidebar, closeSidebar } =
+  const { isSidebarOpen, openSidebar, closeSidebar } =
     useGlobalData();
 
   let sidebarLinks = (

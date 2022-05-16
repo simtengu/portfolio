@@ -294,10 +294,10 @@ body {
   font-family: "Times New Roman", Times, serif;
 }
 
-.skills-row p {
-  font-size: 20px;
-  font-family: "Times New Roman", Times, serif;
+.skills-row .card {
+    box-shadow: 1px 1px 2px grey;
 }
+
 
 .sidebarContainer {
   position: fixed;

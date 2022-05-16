@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
+import mongodbImg from "../assets/mongo.jpg"
+import expressjsImg from "../assets/exp.png"
 import {
   FaBootstrap,
   FaCss3,
@@ -8,10 +10,11 @@ import {
   FaPhp,
   FaReact,
   FaSass,
-  FaVuejs,
   FaJs,
   FaWordpress,
   FaStar,
+  FaNodeJs,
+  FaNode,
 } from "react-icons/fa";
 const Skills = () => {
   useEffect(() => {
@@ -25,7 +28,7 @@ const Skills = () => {
       <div
         data-aos="slide-up"
         id="skills"
-        className=" my-5 py-5 d-flex justify-content-center"
+        className=" my-md-5 py-5 d-flex justify-content-center"
       >
         <div className="text-center">
           <h2 className="education text-mincho">Skills</h2>
@@ -38,14 +41,17 @@ const Skills = () => {
           ></div>
         </div>
       </div>
-      <div data-aos="slide-up" className="row">
+      <div
+        data-aos="slide-up"
+        className="row justify-content-center skills-row px-2 px-md-5"
+      >
         <div className="col-6 col-md-3 col-lg-2 my-2 p-1">
           <div className="card p-1">
             <div className="d-flex align-items-start">
               <FaHtml5 style={{ fontSize: "40px", color: "orange" }} />
               <div className="ml-2">
                 <p id="level" className="m-0" style={{ fontSize: "20px" }}>
-                  HTML5
+                  HTML
                 </p>
 
                 <div className="d-flex align-items-center text-warning">
@@ -150,7 +156,6 @@ const Skills = () => {
                   <FaStar className="" />
                   <FaStar className="m-1" />
                   <FaStar className="m-1" />
-                  <FaStar className="m-1" />
                 </div>
               </div>
             </div>
@@ -168,32 +173,6 @@ const Skills = () => {
 
                 <div className="d-flex align-items-center text-warning">
                   <FaStar className="" />
-                  <FaStar className="m-1" />
-                  <FaStar className="m-1" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="col-6 col-md-3 col-lg-2 my-2 p-1">
-          <div className="card p-1">
-            <div className="d-flex align-items-start">
-              <FaReact
-                style={{
-                  fontSize: "40px",
-                  color: "#4ecfe6",
-                  backgroundColor: "#292f34",
-                }}
-              />
-              <div className="ml-2">
-                <p id="level" className="m-0" style={{ fontSize: "20px" }}>
-                  REACTJS
-                </p>
-
-                <div className="d-flex align-items-center text-warning">
-                  <FaStar className="" />
-                  <FaStar className="m-1" />
                   <FaStar className="m-1" />
                   <FaStar className="m-1" />
                 </div>
@@ -226,6 +205,103 @@ const Skills = () => {
         <div className="col-6 col-md-3 col-lg-2 my-2 p-1">
           <div className="card p-1">
             <div className="d-flex align-items-start">
+              <FaReact
+                style={{
+                  fontSize: "40px",
+                  color: "#4ecfe6",
+                  backgroundColor: "#292f34",
+                }}
+              />
+              <div className="ml-2">
+                <p id="level" className="m-0" style={{ fontSize: "20px" }}>
+                  REACT JS
+                </p>
+
+                <div className="d-flex align-items-center text-warning">
+                  <FaStar className="" />
+                  <FaStar className="m-1" />
+                  <FaStar className="m-1" />
+                  <FaStar className="m-1" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-6 col-md-3 col-lg-2 my-2 p-1">
+          <div className="card p-1">
+            <div className="d-flex align-items-start">
+              <FaNodeJs
+                style={{
+                  fontSize: "40px",
+                  color: "green",
+                }}
+              />
+              <div className="ml-2">
+                <p id="level" className="m-0" style={{ fontSize: "20px" }}>
+                  NODE JS
+                </p>
+
+                <div className="d-flex align-items-center text-warning">
+                  <FaStar className="" />
+                  <FaStar className="m-1" />
+                  <FaStar className="m-1" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-6 col-md-3 col-lg-2 my-2 p-1">
+          <div className="card p-1">
+            <div className="d-flex align-items-start">
+              <img
+                src={expressjsImg}
+                style={{ maxWidth: "20%" }}
+                alt="express pic"
+              />
+
+              <div className="ml-2">
+                <p id="level" className="m-0" style={{ fontSize: "19px" }}>
+                  EXPRESS JS
+                </p>
+
+                <div className="d-flex align-items-center text-warning">
+                  <FaStar className="" />
+                  <FaStar className="m-1" />
+                  <FaStar className="m-1" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-6 col-md-3 col-lg-2 my-2 p-1">
+          <div className="card p-1">
+            <div className="d-flex align-items-start">
+              <img
+                src={mongodbImg}
+                style={{ maxWidth: "30%" }}
+                alt="mongo pic"
+              />
+              <div className="ml-2">
+                <p id="level" className="m-0" style={{ fontSize: "20px" }}>
+                  MONGODB
+                </p>
+
+                <div className="d-flex align-items-center text-warning">
+                  <FaStar className="" />
+                  <FaStar className="m-1" />
+                  <FaStar className="m-1" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-6 col-md-3 col-lg-2 my-2 p-1">
+          <div className="card p-1">
+            <div className="d-flex align-items-start">
               <FaWordpress
                 style={{
                   fontSize: "40px",
@@ -241,13 +317,11 @@ const Skills = () => {
                   <FaStar className="" />
                   <FaStar className="m-1" />
                   <FaStar className="m-1" />
-        
                 </div>
               </div>
             </div>
           </div>
         </div>
-
       </div>
     </>
   );

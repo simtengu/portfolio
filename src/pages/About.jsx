@@ -74,7 +74,8 @@ const About = () => {
                 </p>
                 <p className=" pb-0 mb-0 ">
                   <FaCaretRight className="text-project" />
-                  <strong>Website:</strong> github.com/simtengu/portfolio
+                  <strong>Website:</strong>{" "}
+                  https://simtengu.github.io/portfolio/
                 </p>
                 <p className=" pb-0 mb-0 ">
                   <FaCaretRight className="text-project" />
@@ -130,9 +131,9 @@ const About = () => {
                 Science Degree from 2017-2020, during that period i learnt all
                 basic technologies for web development then after i took my
                 carrier to the next level by learning some of the latest modern
-                frameworks like laravel,expressjs and reactjs. My goal is to be most
-                efficient with all technologies that i have learnt so far and in
-                the future i would like to do mobile development as well.
+                frameworks like laravel,expressjs and reactjs. My goal is to be
+                most efficient with all technologies that i have learnt so far
+                and in the future i would like to do mobile development as well.
               </p>
             </div>
           </div>
