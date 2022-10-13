@@ -22,7 +22,7 @@ export const projects = [
       "This is an application for helping passengers to be able to book for bus tickets online hence freeing them from the burdern of making unneccessary trips to the offices of bus companies just for ticket booking.",
     tools: "nodejs,mongodb,reactjs,material ui",
     images: [booking],
-    link: "https://simtengustoreapp.netlify.app/",
+    link: "https://simtenguticketbooking.netlify.app/",
     repo_link: "https://github.com/simtengu/ticketbooking_backend"
   },
   {
@@ -44,14 +44,14 @@ export const projects = [
     images: [blog],
     link: "https://simtengublogapp.netlify.app/",
     repo_link: "https://github.com/simtengu/blog_app"
-    
-    
+
+
   },
   {
     id: 4,
     title: "Mbeyamilk.com",
     description:
-    "This application is a web application for managing activities of mbeya milk company especially Cost analysis.",
+      "This application is a web application for managing activities of mbeya milk company especially Cost analysis.",
     features: [
       "Recieving data about company sells",
       "Receiving data about company consumptions",
@@ -59,7 +59,7 @@ export const projects = [
       "Managing company products production",
     ],
     purpose:
-    "Development of an application for Mbeya milk company as required.",
+      "Development of an application for Mbeya milk company as required.",
     tools: "laravel,jquery,ajax,bootstrap 4",
     status: 100,
     images: [mby],
@@ -70,7 +70,7 @@ export const projects = [
     id: 1,
     title: "Chuobusiness",
     description:
-    "This is a project in progress which when completed will be used by university students as an online business center.",
+      "This is a project in progress which when completed will be used by university students as an online business center.",
     tools: "laravel,jquery,ajax,bootstrap 4",
     images: [cb],
     link: "http://chuobusiness.mbeyamilk.com/",
@@ -80,7 +80,7 @@ export const projects = [
     id: 2,
     title: "House Renting",
     description:
-    "House renting management system is designed to help landloards especially those with many tenants on managing them easily.",
+      "House renting management system is designed to help landloards especially those with many tenants on managing them easily.",
     tools: "laravel,jquery,ajax,bootstrap 4",
     status: 100,
     images: [hh2],
@@ -91,9 +91,9 @@ export const projects = [
     id: 3,
     title: "Albert Oscar portfolio",
     description:
-    "This is a project for my personal portfolio which describes all neccessary information about me careerwise most specifically.",
+      "This is a project for my personal portfolio which describes all neccessary information about me careerwise most specifically.",
     purpose:
-    "Self learning and gaining some experience specifically in reactjs framework and eventually to deploy the application form marketing myself",
+      "Self learning and gaining some experience specifically in reactjs framework and eventually to deploy the application form marketing myself",
     tools: "reactjs,sass,bootstrap 4",
     status: 100,
     images: [pf0],
