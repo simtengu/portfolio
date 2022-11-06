@@ -19,7 +19,7 @@ export const projects = [
     id: 6,
     title: "online ticket booking",
     description:
-      "This is an application for helping passengers to be able to book for bus tickets online hence freeing them from the burdern of making unneccessary trips to the offices of bus companies just for ticket booking.",
+      "This is an application for helping bus passengers to be able to book for tickets online, hence freeing them from the burdern of making unneccessary trips to the offices of bus companies just for ticket booking.",
     tools: "nodejs,mongodb,reactjs,material ui",
     images: [booking],
     link: "https://simtenguticketbooking.netlify.app/",
@@ -29,7 +29,7 @@ export const projects = [
     id: 7,
     title: "Online shopping",
     description:
-      "This is an eCommerce like application with features like cart,search engine,full product management(crud)",
+      "This is an eCommerce like application with features like cart,products searching,full product management(crud) and user account management",
     tools: "nodejs,mongodb,reactjs,material ui",
     images: [store],
     link: "https://simtengustoreapp.netlify.app/",
@@ -39,7 +39,7 @@ export const projects = [
     id: 5,
     title: "Blog app",
     description:
-      "With this project  a person can register and start publishing various articles ,view and react (like/comment) to other users' posts ",
+      "This is a simple blog application which allows  a person to create an account and start publishing various articles ,view and react (like/comment) to other users' posts. Also a person has full control (can perform crud operations) of his posts  ",
     tools: "nodejs,mongodb,reactjs,material ui",
     images: [blog],
     link: "https://simtengublogapp.netlify.app/",
@@ -51,17 +51,10 @@ export const projects = [
     id: 4,
     title: "Mbeyamilk.com",
     description:
-      "This application is a web application for managing activities of mbeya milk company especially Cost analysis.",
-    features: [
-      "Recieving data about company sells",
-      "Receiving data about company consumptions",
-      "Managing company products' stock",
-      "Managing company products production",
-    ],
+      "This application is a web application for managing activities of mbeya milk company like management of milk stock, sales, expenses of the company and cost analysis.",
     purpose:
       "Development of an application for Mbeya milk company as required.",
     tools: "laravel,jquery,ajax,bootstrap 4",
-    status: 100,
     images: [mby],
     link: "http://milkapp.mbeyamilk.com/",
     repo_link: "https://github.com/simtengu/milkapp"
@@ -82,7 +75,7 @@ export const projects = [
     description:
       "House renting management system is designed to help landloards especially those with many tenants on managing them easily.",
     tools: "laravel,jquery,ajax,bootstrap 4",
-    status: 100,
+    
     images: [hh2],
     link: "http://houserenting.mbeyamilk.com",
     repo_link: "https://github.com/simtengu/chuobusiness"
@@ -95,7 +88,7 @@ export const projects = [
     purpose:
       "Self learning and gaining some experience specifically in reactjs framework and eventually to deploy the application form marketing myself",
     tools: "reactjs,sass,bootstrap 4",
-    status: 100,
+   
     images: [pf0],
     link: "https://simtengu.github.io/portfolio/",
     repo_link: "https://github.com/simtengu/portfolio"
