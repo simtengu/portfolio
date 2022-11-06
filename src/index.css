@@ -200,7 +200,7 @@ body {
 .hero-dark-div {
   position: relative;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.92);
   padding-top: 54px;
 }
 
@@ -413,6 +413,10 @@ body {
 font-size: 1.15rem;
 }
 
+.name-title{
+  font-size: 2rem;
+}
+
 
 /* very small phones................................................................... */
 
@@ -446,7 +450,7 @@ font-size: 1.15rem;
     text-align: center;
   }
   .hero-right-flex-div img {
-    width: 80%;
+    width: 110%;
   }
   .hero-left-flex-div {
     margin-top: 56px;
@@ -468,7 +472,7 @@ font-size: 1.15rem;
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .hero-right-flex-div img {
-    width: 60%;
+    width: 110%;
   }
   .hero-right-flex-div {
     text-align: center;
@@ -483,10 +487,17 @@ font-size: 1.15rem;
   .interestImgDiv {
     width: 95%;
   }
+
+  .name-title{
+  font-size: 2.3rem;
+}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  .name-title{
+  font-size: 3rem;
+}
   .project-title {
 font-size: 1.75rem;
 }

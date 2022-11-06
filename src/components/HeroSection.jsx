@@ -1,5 +1,5 @@
 import React from 'react';
-import albertPic from "../assets/withcap.png";
+import albertPic from "../assets/albb.png";
 const  HeroSection= () => {
     return (
       <>
@@ -14,10 +14,9 @@ const  HeroSection= () => {
                         <h3 className="text-primary text-heading">Hello,</h3>
                         <h2
                           style={{
-                            color: "#fff",
-                            fontSize: 53,
+                            color: "#fff"
                           }}
-                          className="font-weight-bold text-heading"
+                          className="font-weight-bold text-headingd name-title"
                         >
                           I'm Albert Oscar Simtengu
                         </h2>
@@ -107,7 +106,7 @@ const  HeroSection= () => {
                     </div>
                     <div className="col-md-5 hero-right-flex-div pt-5">
                       <div className="hero-pic-div p-3 mt-5">
-                        <img alt="aos" src={albertPic} />
+                        <img alt="aos"  src={albertPic} />
                       </div>
                     </div>
 
