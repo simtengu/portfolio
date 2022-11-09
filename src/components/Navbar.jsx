@@ -80,7 +80,7 @@ const Navbar = () => {
       {isSidebarOpen && (
         <div
           onClick={closeSidebar}
-          style={{ zIndex: 111 }}
+          style={{ zIndex: 112 }}
           className="sidebarContainer"
         >
           {sidebarLinks}
