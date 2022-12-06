@@ -56,7 +56,7 @@ export const projects = [
       "Development of an application for Mbeya milk company as required.",
     tools: "laravel,jquery,ajax,bootstrap 4",
     images: [mby],
-    link: "http://milkapp.mbeyamilk.com/",
+    link: "https://milkapp.prasedo.org/",
     repo_link: "https://github.com/simtengu/milkapp"
   },
   {
@@ -66,7 +66,7 @@ export const projects = [
       "This is a project in progress which when completed will be used by university students as an online business center.",
     tools: "laravel,jquery,ajax,bootstrap 4",
     images: [cb],
-    link: "http://chuobusiness.mbeyamilk.com/",
+    link: "chuobusiness.prasedo.org/",
     repo_link: "https://github.com/simtengu/chuobusiness"
   },
   {
@@ -77,7 +77,7 @@ export const projects = [
     tools: "laravel,jquery,ajax,bootstrap 4",
     
     images: [hh2],
-    link: "http://houserenting.mbeyamilk.com",
+    link: "houserenting.prasedo.org/",
     repo_link: "https://github.com/simtengu/chuobusiness"
   },
   {
@@ -90,7 +90,7 @@ export const projects = [
     tools: "reactjs,sass,bootstrap 4",
    
     images: [pf0],
-    link: "https://simtengu.github.io/portfolio/",
+    link: "https://simtenguportfolio.netlify.app/",
     repo_link: "https://github.com/simtengu/portfolio"
   },
 ];
