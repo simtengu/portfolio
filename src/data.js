@@ -66,7 +66,7 @@ export const projects = [
       "This is a project in progress which when completed will be used by university students as an online business center.",
     tools: "laravel,jquery,ajax,bootstrap 4",
     images: [cb],
-    link: "chuobusiness.prasedo.org/",
+    link: "https://chuobusiness.prasedo.org/",
     repo_link: "https://github.com/simtengu/chuobusiness"
   },
   {
@@ -77,7 +77,7 @@ export const projects = [
     tools: "laravel,jquery,ajax,bootstrap 4",
     
     images: [hh2],
-    link: "houserenting.prasedo.org/",
+    link: "https://houserenting.prasedo.org/",
     repo_link: "https://github.com/simtengu/chuobusiness"
   },
   {
