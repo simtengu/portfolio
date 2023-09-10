@@ -43,8 +43,8 @@ const About = () => {
                 Albert Oscar Simtengu
               </h3>
               <p className=" fontSize text-dark-white text-paragraph">
-                Iam a fullstack developer from Tanzania. My favorite development
-                stack is laravel/nodejs for backend and reactjs for frontend as
+                Iam a mobile app and fullstack web developer from Tanzania. My favorite development
+                stack is flutter(Dart) for mobile development, laravel/nodejs for backend and reactjs for frontend as
                 well as bootstrap,material ui and sass for styling frontend
                 components.
               </p>
@@ -57,7 +57,7 @@ const About = () => {
                   <p className=" pb-0 mb-0 ">
                     <FaCaretRight className="text-project" />
                     <strong>Website:</strong>{" "}
-                    https://simtengu.github.io/portfolio/
+                    https://simtenguportfolio.netlify.app/
                   </p>
                   <p className=" pb-0 mb-0 ">
                     <FaCaretRight className="text-project" />
@@ -69,10 +69,7 @@ const About = () => {
                   </p>
                 </div>
                 <div className="col-lg-6 text-dark-white">
-                  <p className=" pb-0 mb-0 ">
-                    <FaCaretRight className="text-project" />
-                    <strong>Age:</strong> 25
-                  </p>
+              
                   <p className=" pb-0 mb-0 ">
                     <FaCaretRight className="text-project" />
                     <strong>Degree:</strong> Computer science
@@ -110,9 +107,8 @@ const About = () => {
                   learnt all basic technologies for web development. After my
                   time at College I took my carrier to the next level by
                   learning some of the latest modern frameworks like laravel,
-                  expressJs and reactJs. My goal is to be most efficient with
-                  all technologies that i have learnt so far and in the future i
-                  would like to do mobile development as well.
+                  expressJs and reactJs and flutter. My goal is to be as much efficient as i can possibly be with
+                  all technologies that i have learnt so far.
                 </p>
               </div>
             </div>

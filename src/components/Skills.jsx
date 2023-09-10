@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import mongodbImg from "../assets/mongo.jpg";
+import flutterImg from "../assets/flutter.png";
 import {
   FaBootstrap,
   FaCss3,
@@ -11,7 +12,7 @@ import {
   FaJs,
   FaWordpress,
   FaStar,
-  FaNodeJs,
+ 
 } from "react-icons/fa";
 const Skills = () => {
   useEffect(() => {
@@ -146,14 +147,13 @@ const Skills = () => {
               style={{ backgroundColor: "#303131", borderRadius: 17 }}
               className="p-4"
             >
-              <h4 className="text-light">Node js</h4>
+              <h4 className="text-light">Flutter</h4>
 
               <div className="py-2">
-                <FaNodeJs
-                  style={{
-                    fontSize: "38px",
-                    color: "#409f39",
-                  }}
+              <img
+                  src={flutterImg}
+                  style={{ width: "40px" }}
+                  alt="flutter pic"
                 />
               </div>
             </div>
@@ -224,19 +224,58 @@ const Skills = () => {
         </div>
 
         <div data-aos="fade-up" className="row my-3 py-3">
-          <div className="col-md-4 py-2 d-flex justify-content-center">
+          <div className="col-sm-6 col-md-4 col-lg-3 py-2 d-flex justify-content-center">
             <div
               style={{ backgroundColor: "#303131", borderRadius: 17 }}
               className="p-4 w-75"
             >
-              <h3
-                // style={{ color: "#3c92fb" }}
-                className=" text-paragraph text-center text-light font-weight-bold mb-0"
+              <h4 className=" text-paragraph text-center text-light font-weight-bold mb-0">
+                Mobile App
+              </h4>
+              <div
+                style={{ position: "relative", bottom: 4 }}
+                className="text-center"
               >
+                <p className="text-muted m-0 text-paragraph font-weight-bold">
+                  Development
+                </p>
+              </div>
+
+              <div className="">
+                <div className="d-flex text-paragraph">
+                  <div>
+                    <FaStar className="text-primary font-weight-bold" />
+                  </div>
+                  <div className="px-2">
+                    <h5 style={{ fontSize: "18px" }} className="text-light">
+                      Flutter
+                    </h5>
+                  </div>
+                </div>
+
+                <div className="d-flex text-paragraph">
+                  <div>
+                    <FaStar className="text-primary font-weight-bold" />
+                  </div>
+                  <div className="px-2">
+                    <h5 style={{ fontSize: "18px" }} className="text-light">
+                      Dart
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-6 col-md-4 col-lg-3 py-2 d-flex justify-content-center">
+            <div
+              style={{ backgroundColor: "#303131", borderRadius: 17 }}
+              className="p-4 w-75"
+            >
+              <h3 className=" text-paragraph text-center text-light font-weight-bold mb-0">
                 Backend
               </h3>
               <div
-                style={{ position: "relative", bottom: 7 }}
+                style={{ position: "relative", bottom: 4 }}
                 className="text-center"
               >
                 <p className="text-muted m-0 text-paragraph font-weight-bold">
@@ -280,7 +319,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4 py-2 d-flex justify-content-center">
+          <div className="col-sm-6 col-md-4 col-lg-3 py-2 d-flex justify-content-center">
             <div
               style={{ backgroundColor: "#303131", borderRadius: 17 }}
               className="p-4 w-75"
@@ -293,7 +332,7 @@ const Skills = () => {
               </h3>
 
               <div
-                style={{ position: "relative", bottom: 7 }}
+                style={{ position: "relative", bottom: 4 }}
                 className="text-center"
               >
                 <p className="text-muted m-0 text-paragraph font-weight-bold">
@@ -338,7 +377,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="col-md-4 py-2 d-flex justify-content-center">
+          <div className="col-sm-6 col-md-4 col-lg-3 py-2 d-flex justify-content-center">
             <div
               style={{ backgroundColor: "#303131", borderRadius: 17 }}
               className="p-4 w-75"
@@ -350,7 +389,7 @@ const Skills = () => {
                 APIs
               </h3>
               <div
-                style={{ position: "relative", bottom: 7 }}
+                style={{ position: "relative", bottom: 4 }}
                 className="text-center"
               >
                 <p className="text-muted m-0 text-paragraph font-weight-bold">

@@ -76,14 +76,7 @@ const Footer = () => {
                   </a>
                 </div>
 
-                <div className="mt-3">
-                  <p style={{ color: "#ccc",fontSize: 12 }}>
-                    Designed by{" "}
-                    <span style={{ color: "#ccc", fontWeight: "bolder" }}>
-                      Albert Simtengu
-                    </span>
-                  </p>
-                </div>
+
               </div>
             </div>
           </div>

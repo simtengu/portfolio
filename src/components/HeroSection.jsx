@@ -22,64 +22,13 @@ const  HeroSection= () => {
                         </h2>
 
                         <p
-                          className="text-paragraph "
+                          className="text-paragraph text-justify "
                           style={{ color: "#e1e6ea" }}
                         >
-                          I'm a fullstack web developer from Tanzania and a
+                          I'm a mobile & fullstack web developer from Tanzania and a
                           holder of bachelor degree in computer science.
                         </p>
-                        {/* <p className="text-paragraph " style={{ color: "#e1e6ea" }}>
-                    I'm a fullstack web developer from Tanzania and a holder of
-                    bachelor degree in computer science . I like working with
-                    MERN stack and laravel as well as bootstrap,material ui & sass for frontend ui components development.
-                  </p> */}
-                        {/* <div className="d-flex w-75 justify-content-between my-1">
-                          <a
-                            href="https://web.facebook.com/albert.oscar.963"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            {" "}
-                            <FaFacebook
-                              style={{ fontSize: "30px", color: "#3a589b" }}
-                              className="mr-1"
-                            />
-                          </a>
-                          <a
-                            href="https://www.instagram.com/albertsimtengu/"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            {" "}
-                            <FaInstagram
-                              style={{ fontSize: "30px", color: "pink" }}
-                              className="mx-2"
-                            />
-                          </a>
-                          <button
-                            style={{
-                              backgroundColor: "transparent",
-                              border: "none",
-                            }}
-                          >
-                            {" "}
-                            <FaTwitter
-                              style={{ fontSize: "30px", color: "#2fafe6" }}
-                              className="mx-2"
-                            />
-                          </button>
-                          <a
-                            href="https://www.linkedin.com/in/albert-simtengu-5a93a01b8/"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            {" "}
-                            <FaLinkedin
-                              style={{ fontSize: "30px" }}
-                              className="mx-2 text-info"
-                            />
-                          </a>
-                        </div> */}
+                     
                         <div className="d-flex">
                           <a
                             style={{
@@ -110,9 +59,7 @@ const  HeroSection= () => {
                       </div>
                     </div>
 
-                    {/* <div className="w-100 wavesBg">
-                <img alt="aos" src={darkBg} style={{width:"100%",height:"auto"}} />
-              </div> */}
+             
                   </div>
                 </div>
               </div>

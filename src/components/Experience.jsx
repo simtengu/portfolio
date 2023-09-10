@@ -51,7 +51,7 @@ const Experience = () => {
               </div>
               <div>
                 <p className=" ml-2 fontSize text-dark-white p-0 m-0 text-paragraph ">
-                  Freelancing in web development since jan 2021 till now.
+                  Working as Mobile and Frontend developer at 2value.ro  between 2022 - 2023.
                 </p>
               </div>
             </div>

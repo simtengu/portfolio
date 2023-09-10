@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import { FaCheckCircle } from "react-icons/fa";
 import AOS from "aos";
 import { projects } from "../data";
@@ -22,10 +22,24 @@ const Projects = () => {
                 </h1>
               </div>
             </div>
+            {/* <center>
+              <div className="d-flex my-2">
+                <button className="btn btn-outline-primary">Web</button>
+                <button className="btn btn-outline-primary">Mobile</button>
+              </div>
+            </center> */}
 
             <div className="row pb-5 justify-content-center">
               {projects.map((project, index) => {
-                let { title, images, tools, description, link,repo_link } = project;
+                let {
+                  title,
+                  images,
+                  tools,
+                  description,
+                  link,
+                  repo_link,
+                  isWeb,
+                } = project;
                 return (
                   <div
                     key={index}
@@ -66,11 +80,11 @@ const Projects = () => {
                                 >
                                   Tools used
                                 </p>
-                                <Row>
+                                <div className="d-flex justify-content-start">
                                   {tools.split(",").map((tool) => (
                                     <div
                                       key={tool}
-                                      className="d-flex align-items-start mt-1 mt-md-0"
+                                      className="d-flex align-items-start mt-1 mt-md-0 mr-3"
                                     >
                                       <p className="m-0 ml-1 ml-md-0">
                                         <FaCheckCircle className="text-primary" />
@@ -80,7 +94,7 @@ const Projects = () => {
                                       </p>
                                     </div>
                                   ))}
-                                </Row>
+                                </div>
                               </div>
                             </div>
                             <div className="d-flex mt-4">
@@ -98,7 +112,7 @@ const Projects = () => {
                                 rel="noreferrer"
                                 className="btn btn-sm btn-primary rounded-pill ml-2"
                               >
-                                visit project
+                                {isWeb ? "visit project" : "download apk"}
                               </a>
                             </div>
                           </div>

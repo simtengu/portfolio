@@ -21,7 +21,7 @@ const TMaster = ({ picture }) => {
                   </div>
                   <div className="px-2">
                     <h5 className="interest-p text-light">
-                      Average speed: 48 WPM
+                      Average speed: 51 WPM
                     </h5>
                   </div>
                 </div>
