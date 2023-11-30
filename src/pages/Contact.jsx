@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import axios from "axios";
+// import axios from "axios";
 import {
   FaFacebookSquare,
   FaInstagramSquare,
@@ -12,27 +12,27 @@ const Contact = () => {
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
-  const sendEmail = (e) => {
-    e.preventDefault();
-    if (name && email && subject && message) {
-      let data = { name, email, subject, message };
-      axios
-        .post("http://chuobusiness.mbeyamilk.com/api/portfolio_message", data)
-        .then((rs) => {
-          alert("Your message has been sent. Thank your!");
-          setName("");
-          setEmail("");
-          setSubject("");
-          setMessage("");
-        })
-        .catch((error) => {
-          console.log(error);
-          alert("something went wrong while sending your message");
-        });
-      return;
-    }
-    alert("make sure you fill all required fields before sending your email");
-  };
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
+  //   if (name && email && subject && message) {
+  //     let data = { name, email, subject, message };
+  //     axios
+  //       .post("http://chuobusiness.mbeyamilk.com/api/portfolio_message", data)
+  //       .then((rs) => {
+  //         alert("Your message has been sent. Thank your!");
+  //         setName("");
+  //         setEmail("");
+  //         setSubject("");
+  //         setMessage("");
+  //       })
+  //       .catch((error) => {
+  //         console.log(error);
+  //         alert("something went wrong while sending your message");
+  //       });
+  //     return;
+  //   }
+  //   alert("make sure you fill all required fields before sending your email");
+  // };
   return (
     <>
       <div

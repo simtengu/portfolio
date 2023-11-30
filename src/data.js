@@ -25,7 +25,7 @@ export const projects = [
     images: [booking],
     link: "https://simtenguticketbooking.netlify.app/",
     repo_link: "https://github.com/simtengu/ticketbooking_backend",
-    isWeb:true,
+    isWeb: true,
   },
   {
     id: 7,
@@ -36,7 +36,7 @@ export const projects = [
     images: [store],
     link: "https://simtengustoreapp.netlify.app/",
     repo_link: "https://github.com/simtengu/store_app",
-    isWeb:true,
+    isWeb: true,
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ export const projects = [
     images: [blog],
     link: "https://simtengublogapp.netlify.app/",
     repo_link: "https://github.com/simtengu/blog_app",
-    isWeb:true,
+    isWeb: true,
   },
 
   {
@@ -62,7 +62,7 @@ export const projects = [
     images: [pf0],
     link: "https://simtenguportfolio.netlify.app/",
     repo_link: "https://github.com/simtengu/portfolio",
-    isWeb:true,
+    isWeb: true,
   },
   {
     id: 3,
@@ -74,9 +74,9 @@ export const projects = [
     tools: "Flutter,Dart",
 
     images: [news_app],
-    link: "https://github.com/simtengu/news-app/blob/main/APK/app-release.apk",
+    link: "https://drive.google.com/file/d/1GXwlYy7yzLS3AMjaA2cvQ0xu4XLioj_r/view",
     repo_link: "https://github.com/simtengu/news-app",
-    isWeb:false,
+    isWeb: false,
   },
   {
     id: 8,
@@ -88,9 +88,9 @@ export const projects = [
     tools: "Flutter,Dart",
 
     images: [reddit],
-    link: "https://github.com/simtengu/reddit_clone/blob/main/APK/app-release.apk",
+    link: "https://drive.google.com/file/d/1nFOVNc6ZZ16R2ovtR3a9G3doiQmIiqnj/view",
     repo_link: "https://github.com/simtengu/reddit_clone",
-    isWeb:false,
+    isWeb: false,
   },
 ];
 
