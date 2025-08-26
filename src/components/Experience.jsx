@@ -45,13 +45,26 @@ const Experience = () => {
                 </p>
               </div>
             </div>
-            <div className="d-flex justify-content-start align-items-start mt-2 mb-5">
+
+            <div className="d-flex justify-content-start align-items-start mt-2">
               <div>
                 <FaAngleDoubleRight className="text-primary" />
               </div>
               <div>
                 <p className=" ml-2 fontSize text-dark-white p-0 m-0 text-paragraph ">
-                  Working as Mobile and Frontend developer at 2value.ro  between 2022 - 2023.
+                  Working as Mobile and Frontend developer at 2value.ro between
+                  2022 - 2023.
+                </p>
+              </div>
+            </div>
+            <div className="d-flex justify-content-start align-items-start mt-2">
+              <div>
+                <FaAngleDoubleRight className="text-primary" />
+              </div>
+              <div>
+                <p className=" ml-2 fontSize text-dark-white p-0 m-0 text-paragraph ">
+                  2 years at prodesigntz company working as a fullstack developer from
+                  2023 -
                 </p>
               </div>
             </div>

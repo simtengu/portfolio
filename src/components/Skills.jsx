@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import mongodbImg from "../assets/mongo.jpg";
+import firebaseImg from "../assets/firebase.png";
+import nextjsImg from "../assets/nextjs.png";
 import flutterImg from "../assets/flutter.png";
 import {
   FaBootstrap,
@@ -199,6 +201,38 @@ const Skills = () => {
               style={{ backgroundColor: "#303131", borderRadius: 17 }}
               className="p-4"
             >
+              <h4 className="text-light">Firebase</h4>
+
+              <div className="py-2">
+                <img
+                  src={firebaseImg}
+                  style={{ width: "40px" }}
+                  alt="firebase pic"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-6 col-md-4 col-lg-3 p-4">
+            <div
+              style={{ backgroundColor: "#303131", borderRadius: 17 }}
+              className="p-4"
+            >
+              <h4 className="text-light">next js</h4>
+
+              <div className="py-2">
+                <img
+                  src={nextjsImg}
+                  style={{ width: "60px" }}
+                  alt="nextjs pic"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-6 col-md-4 col-lg-3 p-4">
+            <div
+              style={{ backgroundColor: "#303131", borderRadius: 17 }}
+              className="p-4"
+            >
               <h4 className="text-light">wordpress</h4>
 
               <div className="py-2">
@@ -211,6 +245,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
+
         </div>
       </div>
 
